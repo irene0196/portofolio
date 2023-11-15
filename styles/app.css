@@ -20,6 +20,7 @@ font-family: 'Poppins', sans-serif; */
 .main h1 {
   font-size: 96px;
   font-family: var(--heading-font-family);
+  line-height: 1.5;
 }
 .main h3 {
   font-family: var(--default-font-family);
@@ -35,4 +36,70 @@ font-family: 'Poppins', sans-serif; */
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.project h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+.project p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  font-family: var(--default-font-family);
+}
+.second {
+  background: var(--secondary-color);
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.novels {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 10px 60px 10px 60px;
+  background-color: #f8f9fa;
+}
+.project-description {
+  padding: 30px 20px;
+}
+.project-description-hiking {
+  padding: 130px 20px;
+}
+.project-description-weather {
+  padding: 60px 20px;
+}
+.hiking {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+  padding: 10px 90px 10px 90px;
+  background-color: #f8f9fa;
+}
+.weather {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px 10px 50px 10px;
+  background-color: #f8f9fa;
+}
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 2;
+  }
+  .project h2 {
+    font-size: 42px;
+  }
+  .main {
+    padding: 80px 20px;
+  }
 }
