@@ -17,10 +17,20 @@ font-family: 'Poppins', sans-serif; */
   font-weight: bold;
   margin: 0;
 }
+.container h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: bold;
+}
 .main h1 {
   font-size: 96px;
   font-family: var(--heading-font-family);
   line-height: 1.5;
+}
+.container h1 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  line-height: 80px;
 }
 .main h3 {
   font-family: var(--default-font-family);
@@ -36,6 +46,7 @@ font-family: 'Poppins', sans-serif; */
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  font-family: var(--default-font-family);
 }
 .project h2 {
   font-size: 64px;
@@ -47,6 +58,28 @@ font-family: 'Poppins', sans-serif; */
   font-weight: normal;
   font-family: var(--default-font-family);
 }
+.container p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  font-family: var(--default-font-family);
+}
+.container-img {
+  width: 400px;
+  height: 10px;
+}
+.container-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.container-content {
+  margin-left: 100px;
+  margin-right: 31px;
+}
+.container {
+  padding: 160px 20px;
+}
 .second {
   background: var(--secondary-color);
   border: 1px solid var(--branding-color);
@@ -55,6 +88,7 @@ font-family: 'Poppins', sans-serif; */
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  font-family: var(--default-font-family);
 }
 .novels {
   max-width: 100%;
@@ -101,5 +135,14 @@ font-family: 'Poppins', sans-serif; */
   }
   .main {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .container-img img {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 160px;
   }
 }
