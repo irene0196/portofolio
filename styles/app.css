@@ -231,6 +231,19 @@ h4 {
   }
   .project h2 {
     font-size: 42px;
+    text-align: center;
+  }
+  .second {
+    text-align: center;
+  }
+  .project p {
+    text-align: center;
+  }
+  .third {
+    margin-top: 20px;
+  }
+  .project-description-hiking {
+    padding-bottom: 30px;
   }
   .container {
     margin: 20px;
