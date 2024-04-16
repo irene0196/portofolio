@@ -112,7 +112,23 @@ font-family: 'Poppins', sans-serif; */
 .novels {
   max-width: 100%;
   height: auto;
-  margin-top: 80px;
+  margin-top: 60px;
+  padding: 40px 60px 40px 60px;
+  background-color: #f8f9fa;
+}
+.IA {
+  max-width: 50%;
+  height: auto;
+  padding: 40px 60px 40px 60px;
+  background-color: #f8f9fa;
+  margin: 0 auto;
+  display: block;
+  margin-top: 60px;
+}
+.weather-img-work {
+  max-width: 100%;
+  height: auto;
+
   padding: 40px 60px 40px 60px;
   background-color: #f8f9fa;
 }
@@ -231,6 +247,9 @@ h4 {
 }
 .me {
   max-width: 310px;
+}
+.third {
+  margin-top: 50px;
 }
 
 @media (max-width: 960px) {
